@@ -1,66 +1,16 @@
-# Image Search App
+# React + Vite
 
-A simple image search application built with React and the Unsplash API.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-The application allows users to search for images, explore suggested categories, view results in a responsive grid, download images, and open images in full resolution.
+Currently, two official plugins are available:
 
-## Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-- Search images using the Unsplash API
-- Random suggested search categories
-- Responsive image grid
-- Load more images
-- Load multiple pages of results
-- Download images
-- Open images in full resolution
-- Animated feedback messages
-- Error message when no results are found
+## React Compiler
 
-## Technologies
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-- React
-- JavaScript
-- CSS
-- Unsplash API
-- Motion
-- Vite
+## Expanding the ESLint configuration
 
-## What I Practiced
-This project was created as a React practice project.
-While building it, I practiced:
-
-React components
-- useState
-- Props
-- Callback functions
-- API requests with fetch
-- Async/await
-- Working with external APIs
-- Rendering dynamic data
-- Array manipulation
-- motion/react
-- CSS Grid
-- Flexbox
-- Conditional rendering
-- Environment/configuration files
-- Basic animations
-- Image downloading with JavaScript
-- Working with browser APIs
-
-## Possible Improvements
-
-Some features that could be added in the future:
-
-- Loading indicators
-- Infinite scrolling
-- Search filters
-- Image favorites
-- Better mobile responsiveness
-- More detailed error handling
-- Image attribution
-- Search history
-- Dark mode
-
-## License
-
-This project is licensed under the MIT License.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

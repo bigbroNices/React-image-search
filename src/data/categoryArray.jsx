@@ -1,0 +1,20 @@
+export const categories = [
+  "Animals",
+  "Architecture & Interiors",
+  "Business & Work",
+  "Current Events",
+  "Experimental",
+  "Film",
+  "Food & Drink",
+  "Health & Wellness",
+  "Nature",
+  "People",
+  "Spirituality",
+  "Technology",
+  "Textures",
+  "Travel",
+  "Wallpapers",
+  "Business",
+  "Space",
+  "Forest"
+];
