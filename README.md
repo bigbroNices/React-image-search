@@ -50,7 +50,8 @@ npm run dev
 
 The application will be available at the local development URL provided by Vite.
 
-Unsplash API
+
+## Unsplash API
 
 This project uses the Unsplash API to search for and retrieve images.
 
@@ -80,7 +81,7 @@ While building it, I practiced:
 - Image downloading with JavaScript
 - Working with browser APIs
 - Git and GitHub
--
+
 ## Possible Improvements
 - Add loading indicators
 - Add infinite scrolling
